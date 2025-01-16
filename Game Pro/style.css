@@ -1,0 +1,650 @@
+*{
+    position: relative;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+#id{
+    height: 350px;
+    background: url('https://i.playground.ru/e/WiigdL2wsrYAcK4pCTTw7g.jpeg') ;
+    
+    
+}
+
+span{
+    color: rgb(255, 255, 255);
+    font-size: 58px;
+}
+
+body{
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.form-1{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+    transition: 1s;
+    border: 0.5px solid grey;
+    margin-top: -100px;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+}
+ .btn-1{
+    width: 220px;
+    height: 45px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    transition: 0.5ss;
+ }
+
+ .btn-1:hover{
+     transition: 0.5ss;
+     background-color: black;
+ }
+ .btn-2:hover{
+    transition: 0.5s;
+    background-color: rgb(93, 0, 0);
+}
+.btn-3:hover{
+    transition: 1s;
+    background-color: rgb(87, 35, 0);
+}
+ .btn-2{
+    width: 220px;
+    height: 45px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    transition: 0.5s;
+ }
+
+ .btn-3{
+    width: 220px;
+    height: 45px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(194, 74, 4);
+    color: white;
+ }
+
+
+
+.p {
+    font-family: cursive;
+    font-weight: 500;
+    color: gray;
+}
+
+
+.form-1:hover{
+    transition: 1s;
+    -webkit-box-shadow: 12px 10px 27px -3px rgba(37, 42, 45, 0.51);
+    -moz-box-shadow: 12px 10px 27px -3px rgba(37, 42, 45, 0.51);
+    box-shadow: 12px 10px 27px -3px rgba(37, 42, 45, 0.51);
+    background: url('https://pic.rutubelist.ru/video/d7/cf/d7cf0e3c93c3886791051881c23dc1fc.jpg')   center      ;
+    border-image: url('https://pic.rutubelist.ru/video/d7/cf/d7cf0e3c93c3886791051881c23dc1fc.jpg')  / 30px / 30px space;
+    color: white;
+    padding: 20px;
+    
+}
+
+
+a.text:active, /* активная/посещенная ссылка */
+  /* при наведении */
+a.text {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}
+
+a.text:hover{
+    transition: 1s;
+    color: white;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  .header {
+    height: 100vh;
+    background: url('https://i.pinimg.com/736x/31/7c/53/317c539372c3afd0ec5b2a226cf412ee--computer-setup-gaming-computer.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  .header-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .header-content {
+    z-index: 2;
+  }
+  .header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .header p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .btn-custom {
+    background-color: #f39c12;
+    color: #1a1a2e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+  .btn-custom:hover {
+    background-color: #e67e22;
+    color: #fff;
+  }
+
+/* From Uiverse.io by adamgiebl */ 
+.cssbuttons-io {
+    position: relative;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 8px; /* Kichraytirildi */
+    letter-spacing: 0.05em;
+    border-radius: 0.5em; /* Kichraytirildi */
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, #346200, #58d306);
+    color: ghostwhite;
+    overflow: hidden;
+}
+
+.header-btn:hover {
+    transition: 0.5s;
+    background: linear-gradient(to right, #254600, #317a00);
+}
+
+.cssbuttons-io svg {
+    width: 0.3em; /* Kichraytirildi */
+    height: 0.3em; /* Kichraytirildi */
+    margin-right: 0.2em; /* Kichraytirildi */
+}
+
+.cssbuttons-io span {
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.cssbuttons-io span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.8s;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2em 0.4em 0.2em 0.4em; /* Kichraytirildi */
+}
+
+.cssbuttons-io::before,
+.cssbuttons-io::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.cssbuttons-io::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.7s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.cssbuttons-io:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+.cssbuttons-io:active {
+    transform: scale(0.95);
+}
+
+
+
+.form-2{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+    transition: 1s;
+    border: 0.5px solid grey;
+    margin-top: -100px;
+    background-color: white;
+}
+
+
+
+
+
+.form-2:hover{
+    transition: 1s;
+    -webkit-box-shadow: 12px 10px 27px -3px rgba(37, 42, 45, 0.51);
+    -moz-box-shadow: 12px 10px 27px -3px rgba(37, 42, 45, 0.51);
+    box-shadow: 12px 10px 27px -3px rgba(37, 42, 45, 0.51);
+    background: url('https://cdn.nur.kz/images/720/pogudx93krhgpnbni.jpeg')   center top;
+    border-image: url('https://cdn.nur.kz/images/720/pogudx93krhgpnbni.jpeg')  / 30px / 30px space;
+    
+    padding: 20px;
+    
+
+}
+
+.form-2 h2:hover {
+    transition: 1s;
+    color: black;
+
+}
+
+
+.form-3{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+    transition: 1s;
+    border: 0.5px solid grey;
+    margin-top: -100px;
+    background-color: white;
+}
+
+
+
+
+
+.form-3:hover{
+    transition: 1s;
+    -webkit-box-shadow: 12px 10px 27px -3px rgba(37, 42, 45, 0.51);
+    -moz-box-shadow: 12px 10px 27px -3px rgba(37, 42, 45, 0.51);
+    box-shadow: 12px 10px 27px -3px rgba(37, 42, 45, 0.51);
+    background: url('https://frankfurt.apollo.olxcdn.com/v1/files/2ixcai39ov332-KZ/image')   center left   ;
+    border-image: url('https://frankfurt.apollo.olxcdn.com/v1/files/2ixcai39ov332-KZ/image')  / 30px / 30px space;
+    padding: 20px;
+    
+}
+
+#carouselExampleIndicators{
+    width: 50%;
+    height: 450px;
+
+    margin-top: 200px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+
+.img-2{
+    height: 450px;
+    width: 670px;
+    border-radius: 10px;
+}
+
+
+
+.corousel-text{
+    margin: 15px;
+    padding: 5px;
+    display: inline-block;
+
+}
+.corousel-text h2 {
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 37px;
+}
+
+.corousel-info-text{
+    
+    padding: 15px;
+    width: 400px;
+    font-family: sans-serif;
+    height: 300px;
+    font-weight: 500;
+    color: rgb(71, 71, 71);
+}
+
+.corousel-info-text a {
+    width: 350px;
+    height: 300px;
+    font-size: 20px;
+}
+.dropdown-menu .dropdown-item.active {
+    background-color: #8bb42a; /* Yangi fon rangi (blue) */
+    color: white; /* Yangi matn rangi */
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+  }
+  
+.navbar-brand {
+    font-weight: 600;
+    font-size: 345px;
+}
+
+#sidebar-btn {
+    margin: 15px;
+    margin-bottom: 60px;
+    width: 200px;
+    height: 50px;
+}
+.row {
+    padding-left: 35px;
+}
+
+.Sidebar-title{
+    margin: 5px;
+    font-size: 35px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+
+.sidebar-info {
+    margin: 10px;
+   
+}
+
+.sidebar-login-form{
+    margin: 10px;
+    width: 550px;
+    height: 35px;
+}
+
+
+
+    
+.games-list{
+    margin: 10px;
+}
+
+
+
+
+.offcanvas-backdrop {
+    background-color: rgba(0, 0, 0, 0.5); /* Qorayish darajasini sozlash */
+  }
+  
+
+
+
+  .games-list a {
+    text-decoration: none; /* Ko'k chiziqni olib tashlash */
+    color: inherit; /* Rangi asliyiga moslashtirish */
+}
+
+
+#search-btn  {
+    margin-right: 10px;
+}
+
+
+
+
+.accordion-button:active {
+
+        background-color: black !important; /* Tugma bosilganida qora rang */
+        border-color: black !important; /* Borderni ham qora qilish */
+        color: white;
+      
+}
+
+
+
+
+.card img {
+    width: 100%; /* Rasmni ota elementiga (card) nisbatan 100% kenglikda qilish */
+    height: 200px; /* Balandlikni 200 pikselga sozlash (istagan balandlikni kiriting) */
+    object-fit: cover; /* Rasmni o'lchamga moslash va ortiqcha qismlarni kesish */
+}
+
+
+
+
+
+
+
+.card {
+    width: 300px;  /* Yoki istagan kengligingiz */
+    height: 380px; /* Yoki istagan balandligingiz */
+}
+
+
+#game-3-btn {
+    border: none;
+    background-color: #8bb42a;
+    color: white;
+}
+
+#games {
+    background-color: #f4f4f4; /* Fon rangi */
+    padding: 20px;
+  }
+
+  .card {
+    background-color: #fff; /* Card fon rangi */
+    border-radius: 10px; /* Burchaklar yumshartiriladi */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Soyalar qo'shiladi */
+    margin-bottom: 20px; /* Cardlar orasidagi masofa */
+    overflow: hidden; /* Rasmdan tashqari qismlarni yashirish */
+    width: 300px;
+    height: auto;
+  }
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 5px;
+  }
+  .card a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000; /* Button fon rangi */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+  *{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  }
+  body{
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  }
+  .site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+  }
+  .site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+  }
+  .site-footer hr.small {
+  margin: 20px 0;
+  }
+  .site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+  }
+  .site-footer a {
+  color: #737373;
+  text-decoration: none;
+  }
+  .site-footer a:hover {
+  color: #fff;
+  text-decoration: none;
+  }
+  .footer-links {
+  padding-left: 0;
+  list-style: none;
+  }
+  .footer-links li {
+  display: block;
+  }
+  .footer-links a {
+  color: #737373;
+  }
+  .footer-links a:active,
+  .footer-links a:focus,
+  .footer-links a:hover {
+  color: #fff;
+  text-decoration: none;
+  }
+  .site-footer .social-icons {
+  text-align: right;
+  }
+  .site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+  }
+  .copyright-text {
+  margin: 0;
+  }
+  @media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+  margin-bottom: 30px;
+  }
+  }
+  @media (max-width: 767px) {
+  .site-footer {
+  padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+  text-align: center;
+  }
+  }
+  .social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  }
+  .social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+  }
+  .social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  text-decoration: none;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  }
+  .logo{
+  color:#eb6857;
+  }
+  .social-icons a:active,
+  .social-icons a:focus,
+  .social-icons a:hover {
+  color: #fff;
+  background-color: #8bb42a;
+  }
+  .social-icons a.facebook:hover {
+    background-color: rgb(157, 207, 39);
+  }
+  .social-icons a.twitter:hover {
+    background-color: rgb(157, 207, 39);
+  }
+  .social-icons a.linkedin:hover {
+    background-color: rgb(157, 207, 39);
+  }
+  .social-icons a.dribbble:hover {
+  background-color: rgb(157, 207, 39);
+  }
